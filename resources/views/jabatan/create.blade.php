@@ -3,7 +3,7 @@
 <h1>Tambah Data</h1>
 {!!Form::open(['url'=>'jabatan'])!!}
 <div class="form-group">
-	{!!Form::label('kode','Kode Jabatan:')!!}
+	{!!Form::label('kode','Kode Jabatan :')!!}
 	{!!Form::text('kode_jabatan',null,['class'=>'form-control'])!!}
 </div>
 <div class="form-group">
@@ -14,10 +14,8 @@
    {!!Form::label('besaran ','Besaran Uang :')!!}
    {!!Form::text('besaran_uang',null,['class'=>'form-control'])!!}	
 </div>
-</div>
 <div class="form-group">
-  {!!Form::submit('Save',['class'=>'btn btn-primary form-control'])!!}
-	
+  {!!Form::submit('Save',['class'=>'btn btn-primary form-control'])!!}	
 </div>
-  {!!Form::close()!!}
+   {!!Form::close()!!}
 @stop

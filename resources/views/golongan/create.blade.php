@@ -1,9 +1,9 @@
-qqqqqqqqqqqqqqq@extends('layouts.app')
+@extends('layouts.app')
 @section('content')
 <h1>Tambah Data</h1>
 {!!Form::open(['url'=>'golongan'])!!}
 <div class="form-group">
-	{!!Form::label('kode','Kode Golongan:')!!}
+	{!!Form::label('kode','Kode Golongan :')!!}
 	{!!Form::text('kode_golongan',null,['class'=>'form-control'])!!}
 </div>
 <div class="form-group">
